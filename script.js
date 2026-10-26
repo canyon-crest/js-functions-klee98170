@@ -19,7 +19,7 @@
 
 function greet(name) {
   // Write your code here
-
+return("Hello, " + name + "!")
 }
 
 
@@ -36,8 +36,10 @@ function greet(name) {
 //         First click → returns 1, second → returns 2, etc.
 
 
-
+let count = 0;
 function myFunc() {
+  count = count + 1;
+  return(count)
   // Write your code here
 
 }

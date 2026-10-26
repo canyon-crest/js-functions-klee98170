@@ -79,7 +79,7 @@ return (random)
 
 function myAdder(x, y) {
   // Write your code here
-
+return (x + y)
 }
 
 
@@ -97,7 +97,10 @@ function myAdder(x, y) {
 
 function distance(x1, y1, x2, y2) {
   // Write your code here
-
+let xDist = (x2 - x1) **2;
+let yDist = (y2 - y1) **2;
+let add = (xDist + yDist)
+return(Math.sqrt(add)).toFixed(2)
 }
 
 
@@ -112,7 +115,9 @@ function distance(x1, y1, x2, y2) {
 
 function tipCalc(bill, tipPercent) {
   // Write your code here
-
+let tipAmount = bill * (tipPercent / 100)
+let total = bill + tipAmount
+return(total).toFixed(2)
 }
 
 
